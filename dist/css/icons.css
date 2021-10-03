@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../icon-fonts/icons.eot?ptgwjf');
+  src:  url('../icon-fonts/icons.eot?ptgwjf#iefix') format('embedded-opentype'),
+    url('../icon-fonts/icons.ttf?ptgwjf') format('truetype'),
+    url('../icon-fonts/icons.woff?ptgwjf') format('woff'),
+    url('../icon-fonts/icons.svg?ptgwjf#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before
+, [class*=" icon-"]::before {
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-benefit1:before {
+  content: "\e900";
+}
+.icon-benefit2:before {
+  content: "\e901";
+}
+.icon-benefit3:before {
+  content: "\e902";
+}
+.icon-benefit4:before {
+  content: "\e903";
+}
+.icon-benefit5:before {
+  content: "\e904";
+}
+.icon-benefit6:before {
+  content: "\e905";
+}
+.icon-big-truck1:before {
+  content: "\e906";
+}
+.icon-big-truck2:before {
+  content: "\e907";
+}
+.icon-big-truck3:before {
+  content: "\e908";
+}
+.icon-big-truck4:before {
+  content: "\e909";
+}
+.icon-big-truck5:before {
+  content: "\e90a";
+}
+.icon-logo:before {
+  content: "\e90b";
+}
+.icon-facebook:before {
+  content: "\e90c";
+}
+.icon-instagram:before {
+  content: "\e90d";
+}
+.icon-mail:before {
+  content: "\e90e";
+}
+.icon-tel:before {
+  content: "\e90f";
+}
